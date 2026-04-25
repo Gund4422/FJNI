@@ -7,3 +7,5 @@ jk i aint that evil
 * gfortran -O3 -c jni.f90 -o jni.o
 * gfortran -shared -o fjni_core.dll jni_shim.o jni.o -static-libgfortran -static-libgcc
 (NOTE IF YOU DONT HAVE JNI.H, USE THE JNI.H IN THIS REPO'S JNI.H)
+## PROOF OF IT WORKING:
+![Fortran says 7](Capture.JPG)
