@@ -1,8 +1,8 @@
-# fjni
-cool brrrrrrrrr speed port of jni to fortran 
+# fjni 
+the first ever Fortran binding for the Java Native Interface. 28 years of JNI existing, nobody did this. now someone did.
+
 ## build steps
-go figure this out urself bih
-jk i aint that evil
+### on windows
 * gcc -O3 -c jni_shim.c -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -o jni_shim.o
 * gfortran -O3 -c jni.f90 -o jni.o
 * gfortran -O3 -c test_native.f90 -o test_native.o
