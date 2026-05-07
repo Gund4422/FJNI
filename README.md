@@ -1,5 +1,5 @@
-# fjni 
-the first ever Fortran binding for the Java Native Interface. 28 years of JNI existing, nobody did this. now someone did.
+# FJNI 
+The first ever Fortran binding for the Java Native Interface. 28 years of JNI existing, nobody did this. now someone did.
 
 ## Build Instructions
 
@@ -38,5 +38,5 @@ the first ever Fortran binding for the Java Native Interface. 28 years of JNI ex
 - ifx -O3 -shared -o libfjni_core.so jni_shim.o jni.o test_native.o -static-intel
 - java -Djava.library.path=. --enable-native-access=ALL-UNNAMED Bootstrap
 
-## PROOF OF IT WORKING:
+## Proof of it working.
 ![Fortran says 7](Capture.JPG)
